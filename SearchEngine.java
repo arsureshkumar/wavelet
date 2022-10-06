@@ -22,7 +22,7 @@ class Handler implements URLHandler {
                         searchReturn.add(s);
                     }
                 }
-                return(searchReturn.toString());
+                return("Strings matching your query: " + searchReturn.toString());
             }
         }
         return("<b>ERROR 404</b>");
