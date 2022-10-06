@@ -25,7 +25,7 @@ class Handler implements URLHandler {
                 return(searchReturn.toString());
             }
         }
-        return("ERROR 404");
+        return("<b>ERROR 404</b>");
     }
 }
 
